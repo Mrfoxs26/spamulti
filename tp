@@ -1,0 +1,21 @@
+#!/bin/bash
+
+clear
+
+figlet Mr.Foxs | lolcat
+echo '
+[1]. Call
+[2]. Exit
+'
+echo
+read -p "Masukan Pilihan cuk : " pil
+if [[ $pil == 1 ]]; then
+read -p "Masukan nomor nya  bangsad : " nomor
+link="https://id.jagreward.com/member/verify-mobile/$nomor"
+curl -s $link
+else
+echo 'Terima kasih'
+exit
+fi
+echo
+
