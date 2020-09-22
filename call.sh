@@ -769,7 +769,6 @@ from time import sleep
 os.system('clear')
 class kntl():
     def __init__(self):
-        self.ua=requests.get('https://pastebin.com/raw/zkCXTGcm').text.split('\n')
         self.acak = random.choice(self.ua)
         self.hh=input('\033[00mCountry Code: \033[96m')                      
         self.number=input('\033[00mPhone Number: \033[96m')
