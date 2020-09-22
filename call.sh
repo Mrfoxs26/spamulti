@@ -764,9 +764,6 @@ fi
 #jan suka NYOLONG SC GUA anjink
 if [ $pil = 3 ]
 then
-import os,sys,time,requests,random,json,re
-from time import sleep
-os.system('clear')
 class kntl():
     def __init__(self):
         self.ua=requests.get('https://pastebin.com/raw/zkCXTGcm').text.split('\n')
