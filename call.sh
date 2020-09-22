@@ -764,9 +764,7 @@ fi
 #jan suka NYOLONG SC GUA anjink
 if [ $pil = 3 ]
 then
-class kntl():
     def __init__(self):
-        self.ua=requests.get('https://pastebin.com/raw/zkCXTGcm').text.split('\n')
         self.acak = random.choice(self.ua)
         self.hh=input('\033[00mCountry Code: \033[96m')                      
         self.number=input('\033[00mPhone Number: \033[96m')
