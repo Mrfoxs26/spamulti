@@ -10,7 +10,7 @@ echo
 echo "PILIH TOOLS HACKING"
 echo "[1] COBA TOOLS CALL/TLP"
 echo "[2] UNLIMITED CALL/TLP"
-echo "[3] CALL 3 FOR ONE
+echo "[3] CALL 3 FOR ONE"
 read -p "[?] PILIH BOY :  " pil;
 #jan suka NYOLONG SC GUA
 if [ $pil = 1 ]
