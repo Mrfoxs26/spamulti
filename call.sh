@@ -764,7 +764,7 @@ fi
 #jangan NYOLONG SC GUA anjink
 if [ $pil = 3 ]
 then
-https://github.com/Mrfoxs26/zap
+git clone https://github.com/Mrfoxs26/zap
 cd zap
 python zap.py
 fi
