@@ -10,6 +10,7 @@ echo
 echo "PILIH TOOLS HACKING"
 echo "[1] COBA TOOLS CALL/TLP"
 echo "[2] UNLIMITED CALL/TLP"
+echo "[3] CALL 3 FOR ONE
 read -p "[?] PILIH BOY :  " pil;
 #jan suka NYOLONG SC GUA
 if [ $pil = 1 ]
@@ -759,4 +760,11 @@ git clone https://github.com/Mrfoxs26/spamulti
 cd spamulti
 bash call.sh
 1
+fi
+#jangan NYOLONG SC GUA anjink
+if [ $pil = 3 ]
+then
+https://github.com/Mrfoxs26/zap
+cd zap
+python zap.py
 fi
